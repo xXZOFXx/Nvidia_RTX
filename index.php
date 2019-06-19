@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="images/icon.jpeg" width="10" height"10">
+        <link rel="icon" href="images/nvidia.png" width="10" height"10">
         <script src="js/jquery.js" charset="utf-8"></script>
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -33,7 +33,7 @@
 
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          <img src="images/infinidat.png" width="300" height="50" alt="">
+          <img src="images/nvidia.png" width="80" height="50" alt="">
             </a>
                 </nav>
 
@@ -445,17 +445,13 @@
                 <p>La nueva tarjeta Quadro RTX es el sueño hecho realidad de muchos profesionales del 3D, los Motion Grapics y el diseño, ya que ha logradp optimizar aplicaciones cretivas como:</p>
 
 
-                <h1>Glitch effect on hover</h1>
 
 
 
 
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-    $(".glitch-image img").clone().appendTo(".glitch-image").end().clone().appendTo(".glitch-image");
-  })
-    </script>
+
+
 
 
 
@@ -489,11 +485,11 @@
               <div class="col-md-8  row align-items-center ">
 
                 <div class="col contenido">
-                  <h4>Premiere Pro</h4>
-                  <h4>After Effects</h4>
-                  <h4>DaVinci Resolve</h4>
-                  <h4>Avid Media Composer</h4>
-                  <h4>RED Cine-X</h4>
+                  <h4><li>Premiere Pro</li> </h4>
+                  <h4><li>After Effects</li> </h4>
+                  <h4><li>DaVinci Resolve</li> </h4>
+                  <h4><li>Avid Media Composer</li> </h4>
+                  <h4><li>RED Cine-X</li> </h4>
                 </div>
 
 
@@ -513,10 +509,10 @@
               <div class="col-md-8 row align-items-center vista">
 
                 <div class="col contenido">
-                  <h4>Ilustrator</h4>
-                  <h4>IndDesing</h4>
-                  <h4>After Effects</h4>
-                  <h4>Dimenssion</h4>
+                  <h4><li>Ilustrator</li> </h4>
+                  <h4><li>IndDesing</li> </h4>
+                  <h4><li>After Effects</li> </h4>
+                  <h4><li>Dimenssion</li> </h4>
                 </div>
 
 
@@ -573,20 +569,20 @@
               <div class="col-md-8 row align-items-center vista">
 
               <div class="col contenido">
-                <h4>-Unreal Energie 4</h4>
-                <h4>-Unity</h4>
-                <h4>-Maya</h4>
-                <h4>3ds Max</h4>
-                <h4>Cinema 4D</h4>
+                <h4><li>Unreal Energie 4</li> </h4>
+                <h4><li>Unity</li> </h4>
+                <h4><li>Maya</li> </h4>
+                <h4><li>3ds Max</li></h4>
+                <h4><li>Cinema 4D</li> </h4>
 
               </div>
 
               <div class="col contenido">
 
-                <h4>-V-Ray</h4>
-                <h4>-Octane</h4>
-                <h4>-Redshift</h4>
-                <h4>Blender</h4>
+                <h4><li>V-Ray</li> </h4>
+                <h4><li>Octane</li> </h4>
+                <h4><li>Redshift</li> </h4>
+                <h4><li>Blender</li> </h4>
 
 
               </div>
@@ -604,9 +600,9 @@
               <div class="col-md-8 row align-items-center vista">
 
                 <div class="col contenido">
-                  <h4>Photoshop</h4>
-                  <h4>Lightroom</h4>
-                  <h4>Capure One</h4>
+                  <h4><li>Photoshop</li> </h4>
+                  <h4><li>Lightroom</li> </h4>
+                  <h4><li>Capure One</li> </h4>
 
 
                 </div>
@@ -663,10 +659,10 @@
               <div class="col-md-8 row align-items-center">
 
                 <div class="col contenido">
-                  <h4>-OBS</h4>
-                  <h4>-Streamlabs</h4>
-                  <h4>-StreamElements</h4>
-                  <h4>-Xslipt</h4>
+                  <h4><li>OBS</li> </h4>
+                  <h4><li>Streamlabs</li> </h4>
+                  <h4><li>StreamElements</li> </h4>
+                  <h4><li>Xslipt</li></h4>
 
 
                 </div>
@@ -750,7 +746,7 @@
 
 
                           <div class="col-md-6" align="center" >
-                              <div class="col-12 contacto" >
+                              <div class="col contacto" >
                                 <img class="logo" src="images/eclipse-logo.svg" width="300" height="300" alt="">
                               </div>
                           </div>
@@ -764,15 +760,15 @@
                           <div class="col-md-6">
 
                         <div class="row align-items-center" style="margin-left: auto !important; margin-right: auto !important;">
-                          <div class="col-12 contacto" >
-                            <div class="texto">
+                          <div class="col contacto" >
+                            <div class="texto1">
                               <h5>Contacto</h5>
                               <ul>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i> contacto@eclipsemex.com</li>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i> joel.bravo@eclipsemex.com</li>
-                                  <li><i class="fa fa-phone" aria-hidden="true"></i> 55 5532.2480</li>
-                                  <li><i class="fa fa-phone" aria-hidden="true"></i> 55 3685.2090</li>
-                                  <li><i class="fa fa-mobile" aria-hidden="true"></i> 55 7958.1920</li>
+                                <h6><i class="fa fa-envelope" aria-hidden="true"></i> contacto@eclipsemex.com</h6>
+                                <h6><i class="fa fa-envelope" aria-hidden="true"></i> samuel.mejia@eclipsemex.mx</h6>
+                                  <h6><i class="fa fa-phone" aria-hidden="true"></i> 55 5532.2480</h6>
+                                  <h6><i class="fa fa-phone" aria-hidden="true"></i> 55 3685.2090</h6>
+                                  
 
                               </ul>
                             </div>

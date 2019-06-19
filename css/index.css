@@ -321,6 +321,11 @@ color: white;
 
 }
 
+li{
+
+text-align: justify!important;
+margin-left: 50%;
+}
 
 
 .col-md-4{
@@ -337,7 +342,7 @@ padding: 30px;
 text-align: center;
 }
 
-.texto{
+.texto1{
 
 margin-top: 80px!important;
 
