@@ -122,12 +122,7 @@ background: #25988d;
 
 }
 
-.card{
 
-background-color:black;
-
-
-}
 
 .center-block{
 
@@ -210,6 +205,31 @@ text-align: center!important;
 
 }
 
+
+.modal-body{
+
+background: #212529;
+
+}
+
+.modal-dialog {
+    max-width: 563px;
+    margin: 1.75rem auto;
+}
+
+
+
+
+.modal-body {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.list-group{
+   width: 100%;
+    float: left;
+    margin-left: 10px
+}
 
 /*footer*/
 
@@ -321,7 +341,7 @@ color: white;
 
 }
 
-li{
+.lista{
 
 text-align: justify!important;
 margin-left: 50%;
@@ -436,6 +456,11 @@ padding-bottom: 17px;
 
 };
 
+td{
+
+color: black!important;
+
+}
 
 /*prueba fotos*/
 html {

@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Nvidia</title>
 
@@ -485,11 +486,11 @@
               <div class="col-md-8  row align-items-center ">
 
                 <div class="col contenido">
-                  <h4><li>Premiere Pro</li> </h4>
-                  <h4><li>After Effects</li> </h4>
-                  <h4><li>DaVinci Resolve</li> </h4>
-                  <h4><li>Avid Media Composer</li> </h4>
-                  <h4><li>RED Cine-X</li> </h4>
+                  <h4><li class="lista">Premiere Pro</li> </h4>
+                  <h4><li class="lista">After Effects</li> </h4>
+                  <h4><li class="lista">DaVinci Resolve</li> </h4>
+                  <h4><li class="lista">Avid Media Composer</li> </h4>
+                  <h4><li class="lista">RED Cine-X</li> </h4>
                 </div>
 
 
@@ -509,10 +510,10 @@
               <div class="col-md-8 row align-items-center vista">
 
                 <div class="col contenido">
-                  <h4><li>Ilustrator</li> </h4>
-                  <h4><li>IndDesing</li> </h4>
-                  <h4><li>After Effects</li> </h4>
-                  <h4><li>Dimenssion</li> </h4>
+                  <h4><li class="lista">Ilustrator</li> </h4>
+                  <h4><li class="lista">IndDesing</li> </h4>
+                  <h4><li class="lista">After Effects</li> </h4>
+                  <h4><li class="lista">Dimenssion</li> </h4>
                 </div>
 
 
@@ -569,20 +570,20 @@
               <div class="col-md-8 row align-items-center vista">
 
               <div class="col contenido">
-                <h4><li>Unreal Energie 4</li> </h4>
-                <h4><li>Unity</li> </h4>
-                <h4><li>Maya</li> </h4>
-                <h4><li>3ds Max</li></h4>
-                <h4><li>Cinema 4D</li> </h4>
+                <h4><li class="lista">Unreal Energie 4</li> </h4>
+                <h4><li class="lista">Unity</li> </h4>
+                <h4><li class="lista">Maya</li> </h4>
+                <h4><li class="lista">3ds Max</li></h4>
+                <h4><li class="lista">Cinema 4D</li> </h4>
 
               </div>
 
               <div class="col contenido">
 
-                <h4><li>V-Ray</li> </h4>
-                <h4><li>Octane</li> </h4>
-                <h4><li>Redshift</li> </h4>
-                <h4><li>Blender</li> </h4>
+                <h4><li class="lista">V-Ray</li> </h4>
+                <h4><li class="lista">Octane</li> </h4>
+                <h4><li class="lista">Redshift</li> </h4>
+                <h4><li class="lista">Blender</li> </h4>
 
 
               </div>
@@ -600,9 +601,9 @@
               <div class="col-md-8 row align-items-center vista">
 
                 <div class="col contenido">
-                  <h4><li>Photoshop</li> </h4>
-                  <h4><li>Lightroom</li> </h4>
-                  <h4><li>Capure One</li> </h4>
+                  <h4><li class="lista">Photoshop</li> </h4>
+                  <h4><li class="lista">Lightroom</li> </h4>
+                  <h4><li class="lista">Capure One</li> </h4>
 
 
                 </div>
@@ -659,10 +660,10 @@
               <div class="col-md-8 row align-items-center">
 
                 <div class="col contenido">
-                  <h4><li>OBS</li> </h4>
-                  <h4><li>Streamlabs</li> </h4>
-                  <h4><li>StreamElements</li> </h4>
-                  <h4><li>Xslipt</li></h4>
+                  <h4><li class="lista">OBS</li> </h4>
+                  <h4><li class="lista">Streamlabs</li> </h4>
+                  <h4><li class="lista">StreamElements</li> </h4>
+                  <h4><li class="lista">Xslipt</li></h4>
 
 
                 </div>
@@ -720,10 +721,1319 @@
 
       </div>
 
+        <div class="container">
 
+          <div class="row">
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal1">
+                <img src="images/c1.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title 1</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">DELL PRECISION 7740</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">DELL PRECISION 7540</a>
+                                  </li>
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 5000</th>
+                                          <td>16 GB GDDR6</td>
+                                          <td>3072</td>
+                                          <td>384</td>
+                                          <td>48</td>
+                                          <td>imagenxd</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 4000</th>
+                                          <td>8 GB GDDR6</td>
+                                          <td>2560</td>
+                                          <td>320</td>
+                                          <td>40</td>
+                                          <td>imagenxd</td>
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td>imagenxd</td>
+
+                                        </tr>
+
+                                      </tbody>
+                            </table>
+                          </div>
+                                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 5000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td>imagenxd</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 4000</th>
+                                          <td>4 GB GDDR6</td>
+                                          <td>1024</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td></td>
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>4 GB GDDR6</td>
+                                          <td>768</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+
+                                      </tbody>
+                            </table>
+
+                                  </div>
+                                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                </div>
+
+
+                          </div>
+
+                        </div>
+                </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal2">
+                <img src="images/c2.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title 2</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">RTX 4000</th>
+                                    <td>8 GB GDDR6</td>
+                                    <td>2560</td>
+                                    <td>320</td>
+                                    <td>40</td>
+                                    <td>imagenxd</td>
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">RTX 3000</th>
+                                    <td>6 GB GDDR6</td>
+                                    <td>2304</td>
+                                    <td>288</td>
+                                    <td>36</td>
+                                    <td>imagenxd</td>
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">T1000</th>
+                                    <td>5 GB GDDR5</td>
+                                    <td>768</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal3">
+                <img src="images/c3.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Lenovo P73</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">RTX 4000</th>
+                                    <td>8 GB GDDR6</td>
+                                    <td>2560</td>
+                                    <td>320</td>
+                                    <td>40</td>
+                                    <td>imagenxd</td>
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">RTX 3000</th>
+                                    <td>6 GB GDDR6</td>
+                                    <td>2304</td>
+                                    <td>288</td>
+                                    <td>36</td>
+                                    <td>imagenxd</td>
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">T2000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>1024</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">P620</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>512</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal4">
+                <img src="images/c4.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">MSI WS75</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home" aria-selected="true">MSI WS75</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile1" role="tab" aria-controls="profile" aria-selected="false">MSI WE75</a>
+                                  </li>
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                  <div class="tab-pane fade show active" id="home2" role="tabpanel" aria-labelledby="home-tab">
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 4000</th>
+                                          <td>8 GB GDDR6</td>
+                                          <td>2560</td>
+                                          <td>320</td>
+                                          <td>40</td>
+                                          <td>imagenxd</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td>imagenxd</td>
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T200</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>1024</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+
+                                      </tbody>
+                            </table>
+                          </div>
+                                  <div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile-tab">
+
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td>imagenxd</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T4000</th>
+                                          <td>4 GB GDDR6</td>
+                                          <td>1024</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td></td>
+
+                                        </tr>
+
+
+                                      </tbody>
+                            </table>
+
+                                  </div>
+                                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                </div>
+
+
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal5">
+                <img src="images/c5.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">STUDIOBOOK W700G3T</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 3000</th>
+                                    <td>6 GB GDDR6</td>
+                                    <td>2304</td>
+                                    <td>288</td>
+                                    <td>36</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">T2000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>1024</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>imagenxd</td>
+
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">T1000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>768</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+                                  </tr>
+
+
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal6">
+                <img src="images/c6.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bade Pro</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+
+
+
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+
+          </div>
+
+<br>
+          <div class="row">
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal7">
+                <img src="images/c7.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">DELL PRECISION 7540</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home3" role="tab" aria-controls="home" aria-selected="true">Dell Precision 7540</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile3" role="tab" aria-controls="profile" aria-selected="false">Dell Precision 5540</a>
+                                  </li>
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                  <div class="tab-pane fade show active" id="home3" role="tabpanel" aria-labelledby="home-tab">
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td>imagenxd</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T 2000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>1024</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T100</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>768</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+
+                                      </tbody>
+                            </table>
+                          </div>
+                                  <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile-tab">
+
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td>imagenxd</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T4000</th>
+                                          <td>4 GB GDDR6</td>
+                                          <td>1024</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td></td>
+
+                                        </tr>
+
+
+                                      </tbody>
+                            </table>
+
+                                  </div>
+                                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                </div>
+
+
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal8">
+                <img src="images/c8.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">HP ZBOOK 15 G6</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 3000</th>
+                                    <td>6 GB GDDR6</td>
+                                    <td>2304</td>
+                                    <td>288</td>
+                                    <td>36</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">T2000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>1024</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">T1000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>768</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
+
+                                  </tr>
+
+
+
+
+
+
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal9">
+                <img src="images/c9.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">LENOVO P53</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">RTX 4000</th>
+                                    <td>8 GB GDDR6</td>
+                                    <td>2560</td>
+                                    <td>320</td>
+                                    <td>40</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">RTX 3000</th>
+                                    <td>6 GB GDDR6</td>
+                                    <td>2304</td>
+                                    <td>288</td>
+                                    <td>36</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">T2000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>1024</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">T1000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>768</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
+
+                                  </tr>
+
+
+
+
+
+
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal10">
+                <img src="images/c10.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">MSI WS65</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">RTX 4000</th>
+                                    <td>8 GB GDDR6</td>
+                                    <td>2560</td>
+                                    <td>320</td>
+                                    <td>40</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">RTX 3000</th>
+                                    <td>6 GB GDDR6</td>
+                                    <td>2304</td>
+                                    <td>288</td>
+                                    <td>36</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">T2000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>1024</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
+
+                                  </tr>
+
+                                  <tr>
+                                    <th scope="row">T1000</th>
+                                    <td>4 GB GDDR5</td>
+                                    <td>768</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+
+
+
+                                  </tr>
+
+
+
+
+
+
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal11">
+                <img src="images/c11.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">StudioBook W500</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal12">
+                <img src="images/c12.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">ConceptD 7</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+
+            <div class="col-md-4">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal13">
+                <img src="images/c13.jpg" width="100%" height="100%" alt="">
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Blade 15</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <div class="scroll-tree">
+
+                          <div class="list-group" ng-repeat="item in items" >
+                            <table class="table table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">GPU</th>
+                                    <th scope="col">MEMORY</th>
+                                    <th scope="col">CUDA CORES</th>
+                                    <th scope="col">TENSOR CORES</th>
+                                    <th scope="col">RT CORES</th>
+                                    <th scope="col">VR READY</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">RTX 5000</th>
+                                    <td>16 GB GDDR6</td>
+                                    <td>3072</td>
+                                    <td>384</td>
+                                    <td>48</td>
+                                    <td>imagenxd</td>
+
+
+
+                                  </tr>
+
+                                </tbody>
+                              </table>
+                          </div>
+
+                        </div>
+                </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+            </div>
+
+
+
+
+
+          </div>
+
+        </div>
+
+        </div>
 
 
               </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -768,7 +2078,7 @@
                                 <h6><i class="fa fa-envelope" aria-hidden="true"></i> samuel.mejia@eclipsemex.mx</h6>
                                   <h6><i class="fa fa-phone" aria-hidden="true"></i> 55 5532.2480</h6>
                                   <h6><i class="fa fa-phone" aria-hidden="true"></i> 55 3685.2090</h6>
-                                  
+
 
                               </ul>
                             </div>
@@ -781,81 +2091,19 @@
 
   </body>
 
-
-  <script src="js/bootstrap.js" charset="utf-8"></script>
-
-  <script>
-
-  $(document).ready(function(){
-
-
-cambiarPdf();
-cambiarPdf1();
-cambiarPdf2();
-
-});
-
-  </script>
-
-<script type="text/javascript">
-
-function cambiarPdf() {
-    var width = document.documentElement.clientWidth;
-      var btnMov = document.getElementById("botonMovil");
-      var btnWeb = document.getElementById("botonWeb");
-      btnMov.style.display = "none";
-      btnWeb.style.display = "block";
-    if (width < 1000 ){
-      btnMov.style.display = "block";
-      btnWeb.style.display = "none";
-    }else{
-      btnMov.style.display = "none";
-      btnWeb.style.display = "block";
-    }
-}
-
-</script>
-
 <script>
+var totalwidth = 190 * $('.list-group').length;
 
-
-function cambiarPdf1() {
-    var width = document.documentElement.clientWidth;
-      var btnMov1 = document.getElementById("botonMovil1");
-      var btnWeb1 = document.getElementById("botonWeb1");
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    if (width < 1000 ){
-      btnMov1.style.display = "block";
-      btnWeb1.style.display = "none";
-    }else{
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    }
-}
-
-
+$('.scoll-tree').css('width', totalwidth);
 </script>
 
-<script type="text/javascript">
-
-function cambiarPdf2() {
-    var width = document.documentElement.clientWidth;
-      var btnMov1 = document.getElementById("botonMovil2");
-      var btnWeb1 = document.getElementById("botonWeb2");
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    if (width < 1000 ){
-      btnMov1.style.display = "block";
-      btnWeb1.style.display = "none";
-    }else{
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    }
-}
 
 
-</script>
+
+
+
+
+
 
   <script>
     function enviarBtn(){
