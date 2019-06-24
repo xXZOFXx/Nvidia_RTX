@@ -34,7 +34,7 @@
 
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          <img src="images/nvidia.png" width="80" height="50" alt="">
+          <img src="images/nvidia.png" width="100" height="80" alt="">
             </a>
                 </nav>
 
@@ -357,7 +357,11 @@
 
                             </div>
 
+
+
+
                           </div>
+
 
                           <div class="row">
 
@@ -405,19 +409,11 @@
 
 
 
-                <div class="col-sm-8">
+                <div class="col-md-8 align-items-center">
 
 
-                    <div class="imagen">
-                      <div class="inic">
-                        <div class="col inicio">
-
-                        </div>
-
-
-
-
-                      </div>
+                    <div class="col">
+                      <h1 class="render" style="color:white; font-size:70px; text-align:center; text-shadow: 5px 5px 5px black;padding-bottom: 50%;padding-top: 25%;">RENDERIZA EN TIEMPO RECORD CON NVIDIA QUADRO RTX</h1>
                     </div>
 
 
@@ -441,9 +437,9 @@
 
 
 
-                  <h2>RENDERIZA EN TIEMPO RECORD CON NVIDIA QUADRO RTX</h2>
 
-                <p>La nueva tarjeta Quadro RTX es el sueño hecho realidad de muchos profesionales del 3D, los Motion Grapics y el diseño, ya que ha logradp optimizar aplicaciones cretivas como:</p>
+
+                <h2>La nueva tarjeta Quadro RTX es el sueño hecho realidad de muchos profesionales del 3D, los Motion Grapics y el diseño, ya que ha logradp optimizar aplicaciones cretivas como:</h2>
 
 
 
@@ -461,7 +457,7 @@
 
           <div class="col-md-12 texto">
             <div class="titulo">
-              <h3>Edición de video</h3>
+              <h3>EDICIÓN DE VIDEO</h3>
             </div>
             <div class="row">
               <div class="col-md-4">
@@ -489,7 +485,7 @@
                   <h4><li class="lista">Premiere Pro</li> </h4>
                   <h4><li class="lista">After Effects</li> </h4>
                   <h4><li class="lista">DaVinci Resolve</li> </h4>
-                  <h4><li class="lista">Avid Media Composer</li> </h4>
+                  <h4><li class="lista">AvidMediaComposer</li> </h4>
                   <h4><li class="lista">RED Cine-X</li> </h4>
                 </div>
 
@@ -504,7 +500,7 @@
 
           <div class="col-md-12 texto">
             <div class="titulo">
-              <h3>Diseño Grafico</h3>
+              <h3>DISEÑO GRAFICO</h3>
             </div>
             <div class="row">
               <div class="col-md-8 row align-items-center vista">
@@ -676,43 +672,42 @@
 
         <div class="col">
           <h3>Trayendo consigo beneficios insuperables de:</h3>
+
           <div class="row">
 
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="images/ciudad.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Animación 3D FOTOS REALÍSTAS</h5>
+              <div class=" contenedor">
+                <div class="carta">
+                  <img src="images/robot.png" alt="">
+                  <h4>ANIMACIÓN 3D Fotos Realístas</h4>
+                </div>
 
-              </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="images/gato.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">RENDER IMPULSADO CON IA</h5>
-
-              </div>
-                </div>
-              </div>
-
-
-
-
-                <div class="col-md-4">
-                  <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="images/robot.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">CALIDAD DE ULTRA VIDEO</h5>
+              <div class="col-md-4">
+                <div class="contenedor">
+                  <div class="carta">
+                    <img src="images/gato.png" alt="">
+                    <h4>RENDER IMPULSADO CON AI</h4>
 
                   </div>
-                    </div>
                 </div>
+              </div>
 
 
-            </div>
+              <div class="col-md-4">
+                <div class="contenedor">
+                  <div class="carta">
+                    <img src="images/ciudad.png" alt="">
+                    <h4>CALIDAD DE ULTRA VIDEO</h4>
+
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
         </div>
 
 
@@ -735,7 +730,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title 1</h5>
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -776,18 +771,20 @@
                                           <td>3072</td>
                                           <td>384</td>
                                           <td>48</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
                                         </tr>
-                                        <tr>
-                                          <th scope="row">RTX 4000</th>
-                                          <td>8 GB GDDR6</td>
-                                          <td>2560</td>
-                                          <td>320</td>
-                                          <td>40</td>
-                                          <td>imagenxd</td>
+                                        <tr >
+                                          <div class="col">
+                                            <th scope="row">RTX 4000</th>
+                                            <td>8 GB GDDR6</td>
+                                            <td>2560</td>
+                                            <td>320</td>
+                                            <td>40</td>
+                                            <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
+                                          </div>
 
                                         </tr>
                                         <tr>
@@ -796,7 +793,7 @@
                                           <td>2304</td>
                                           <td>288</td>
                                           <td>36</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
                                         </tr>
 
@@ -818,18 +815,18 @@
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <th scope="row">RTX 5000</th>
+                                          <th scope="row">RTX 3000</th>
                                           <td>6 GB GDDR6</td>
                                           <td>2304</td>
                                           <td>288</td>
                                           <td>36</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
                                         </tr>
                                         <tr>
-                                          <th scope="row">RTX 4000</th>
+                                          <th scope="row">T2000</th>
                                           <td>4 GB GDDR6</td>
                                           <td>1024</td>
                                           <td>-</td>
@@ -838,7 +835,7 @@
 
                                         </tr>
                                         <tr>
-                                          <th scope="row">RTX 3000</th>
+                                          <th scope="row">T1000</th>
                                           <td>4 GB GDDR6</td>
                                           <td>768</td>
                                           <td>-</td>
@@ -882,7 +879,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title 2</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">HP ZBook 17 G6</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -911,7 +908,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -922,7 +919,7 @@
                                     <td>2560</td>
                                     <td>320</td>
                                     <td>40</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
                                   </tr>
                                   <tr>
@@ -931,7 +928,7 @@
                                     <td>2304</td>
                                     <td>288</td>
                                     <td>36</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
                                   </tr>
                                   <tr>
@@ -1000,7 +997,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1011,7 +1008,7 @@
                                     <td>2560</td>
                                     <td>320</td>
                                     <td>40</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
                                   </tr>
                                   <tr>
@@ -1020,7 +1017,7 @@
                                     <td>2304</td>
                                     <td>288</td>
                                     <td>36</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
                                   </tr>
                                   <tr>
@@ -1070,7 +1067,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">MSI WS75</h5>
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -1087,7 +1084,7 @@
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home" aria-selected="true">MSI WS75</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile1" role="tab" aria-controls="profile" aria-selected="false">MSI WE75</a>
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile" aria-selected="false">MSI WE75</a>
                                   </li>
 
                                 </ul>
@@ -1111,7 +1108,7 @@
                                           <td>2560</td>
                                           <td>320</td>
                                           <td>40</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1122,7 +1119,7 @@
                                           <td>2304</td>
                                           <td>288</td>
                                           <td>36</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
                                         </tr>
                                         <tr>
@@ -1158,7 +1155,7 @@
                                           <td>2304</td>
                                           <td>288</td>
                                           <td>36</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1237,7 +1234,7 @@
                                     <td>2304</td>
                                     <td>288</td>
                                     <td>36</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1248,7 +1245,7 @@
                                     <td>1024</td>
                                     <td>-</td>
                                     <td>-</td>
-                                    <td>imagenxd</td>
+                                    <td>-</td>
 
                                   </tr>
                                   <tr>
@@ -1321,7 +1318,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1365,7 +1362,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">DELL PRECISION 7540</h5>
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -1383,6 +1380,9 @@
                                   </li>
                                   <li class="nav-item">
                                     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile3" role="tab" aria-controls="profile" aria-selected="false">Dell Precision 5540</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#perfilextra" role="tab" aria-controls="contact" aria-selected="false">Dell Precision 3541</a>
                                   </li>
 
                                 </ul>
@@ -1406,7 +1406,7 @@
                                           <td>2304</td>
                                           <td>288</td>
                                           <td>36</td>
-                                          <td>imagenxd</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1431,6 +1431,7 @@
                                         </tr>
 
                                       </tbody>
+
                             </table>
                           </div>
                                   <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile-tab">
@@ -1449,22 +1450,22 @@
                                       <tbody>
                                         <tr>
                                           <th scope="row">RTX 3000</th>
-                                          <td>6 GB GDDR6</td>
-                                          <td>2304</td>
-                                          <td>288</td>
-                                          <td>36</td>
-                                          <td>imagenxd</td>
+                                          <td>4 GB GDDR5</td>
+                                          <td>1204</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
 
 
 
                                         </tr>
                                         <tr>
-                                          <th scope="row">T4000</th>
-                                          <td>4 GB GDDR6</td>
-                                          <td>1024</td>
+                                          <th scope="row">T2000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>768</td>
                                           <td>-</td>
                                           <td>-</td>
-                                          <td></td>
+                                          <td>-</td>
 
                                         </tr>
 
@@ -1473,7 +1474,39 @@
                             </table>
 
                                   </div>
-                                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                  <div class="tab-pane fade" id="perfilextra" role="tabpanel" aria-labelledby="contact-tab">
+
+
+                            <table class="table table-dark">
+                              <thead>
+                                <tr>
+                                  <th scope="col">GPU</th>
+                                  <th scope="col">MEMORY</th>
+                                  <th scope="col">CUDA CORES</th>
+                                  <th scope="col">TENSOR CORES</th>
+                                  <th scope="col">RT CORES</th>
+                                  <th scope="col">VR READY</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">P620</th>
+                                  <td>5 GB GDDR5</td>
+                                  <td>512</td>
+                                  <td>-</td>
+                                  <td>-</td>
+                                  <td>-</td>
+
+
+
+                                </tr>
+
+
+
+                              </tbody>
+
+                            </table>
+                                  </div>
                                 </div>
 
 
@@ -1503,7 +1536,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">HP ZBOOK 15 G6</h5>
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -1514,62 +1547,101 @@
                       <div class="scroll-tree">
 
                           <div class="list-group" ng-repeat="item in items" >
-                            <table class="table table-dark">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">GPU</th>
-                                    <th scope="col">MEMORY</th>
-                                    <th scope="col">CUDA CORES</th>
-                                    <th scope="col">TENSOR CORES</th>
-                                    <th scope="col">RT CORES</th>
-                                    <th scope="col">VR READY</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">RTX 3000</th>
-                                    <td>6 GB GDDR6</td>
-                                    <td>2304</td>
-                                    <td>288</td>
-                                    <td>36</td>
-                                    <td>imagenxd</td>
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home4" role="tab" aria-controls="home" aria-selected="true">HP ZBook 15 G6</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile4" role="tab" aria-controls="profile" aria-selected="false">HP ZBook 15V</a>
+                                  </li>
+
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                  <div class="tab-pane fade show active" id="home4" role="tabpanel" aria-labelledby="home-tab">
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
-                                  </tr>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T2000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>1024</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
 
-                                  <tr>
-                                    <th scope="row">T2000</th>
-                                    <td>4 GB GDDR5</td>
-                                    <td>1024</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T100</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>768</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+
+                                      </tbody>
+
+                            </table>
+                          </div>
+                                  <div class="tab-pane fade" id="profile4" role="tabpanel" aria-labelledby="profile-tab">
+
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">P620</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>512</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
 
 
 
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">T1000</th>
-                                    <td>4 GB GDDR5</td>
-                                    <td>768</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
+                                        </tr>
 
 
 
-                                  </tr>
+                                      </tbody>
+                            </table>
+
+                                  </div>
+
+                                </div>
 
 
-
-
-
-
-
-                                </tbody>
-                              </table>
                           </div>
 
                         </div>
@@ -1596,7 +1668,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">LENOVO P53</h5>
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -1607,86 +1679,215 @@
                       <div class="scroll-tree">
 
                           <div class="list-group" ng-repeat="item in items" >
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home5" role="tab" aria-controls="home" aria-selected="true">LENOVO P53</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile5" role="tab" aria-controls="profile" aria-selected="false">LENOVO P1</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#perfilextra2" role="tab" aria-controls="contact" aria-selected="false">LENOVO P53S</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#perfilextra3" role="tab" aria-controls="contact" aria-selected="false">LENOVO P43S</a>
+                                  </li>
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                  <div class="tab-pane fade show active" id="home5" role="tabpanel" aria-labelledby="home-tab">
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">RTX 5000</th>
+                                          <td>16 GB GDDR6</td>
+                                          <td>3074</td>
+                                          <td>384</td>
+                                          <td>48</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 4000</th>
+                                          <td>8 GB GDDR6</td>
+                                          <td>2560</td>
+                                          <td>320</td>
+                                          <td>40</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">RTX 3000</th>
+                                          <td>6 GB GDDR6</td>
+                                          <td>2304</td>
+                                          <td>288</td>
+                                          <td>36</td>
+                                          <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
+
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">T2000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>1204</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">T1000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>768</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+                                        </tr>
+
+
+                                      </tbody>
+
+                            </table>
+                          </div>
+                                  <div class="tab-pane fade" id="profile5" role="tabpanel" aria-labelledby="profile-tab">
+
+                                    <table class="table table-dark">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">GPU</th>
+                                          <th scope="col">MEMORY</th>
+                                          <th scope="col">CUDA CORES</th>
+                                          <th scope="col">TENSOR CORES</th>
+                                          <th scope="col">RT CORES</th>
+                                          <th scope="col">VR READY</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">T2000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>1204</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td>-</td>
+
+
+
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">T1000</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>768</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td></td>
+
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">P620</th>
+                                          <td>4 GB GDDR5</td>
+                                          <td>512</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                          <td></td>
+
+                                        </tr>
+
+
+                                      </tbody>
+                            </table>
+
+                                  </div>
+                                  <div class="tab-pane fade" id="perfilextra2" role="tabpanel" aria-labelledby="contact-tab">
+
+
                             <table class="table table-dark">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">GPU</th>
-                                    <th scope="col">MEMORY</th>
-                                    <th scope="col">CUDA CORES</th>
-                                    <th scope="col">TENSOR CORES</th>
-                                    <th scope="col">RT CORES</th>
-                                    <th scope="col">VR READY</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">RTX 5000</th>
-                                    <td>16 GB GDDR6</td>
-                                    <td>3072</td>
-                                    <td>384</td>
-                                    <td>48</td>
-                                    <td>imagenxd</td>
+                              <thead>
+                                <tr>
+                                  <th scope="col">GPU</th>
+                                  <th scope="col">MEMORY</th>
+                                  <th scope="col">CUDA CORES</th>
+                                  <th scope="col">TENSOR CORES</th>
+                                  <th scope="col">RT CORES</th>
+                                  <th scope="col">VR READY</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">P520</th>
+                                  <td>2 GB GDDR5</td>
+                                  <td>384</td>
+                                  <td>-</td>
+                                  <td>-</td>
+                                  <td>-</td>
 
 
 
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">RTX 4000</th>
-                                    <td>8 GB GDDR6</td>
-                                    <td>2560</td>
-                                    <td>320</td>
-                                    <td>40</td>
-                                    <td>imagenxd</td>
+                                </tr>
 
 
 
-                                  </tr>
+                              </tbody>
 
-                                  <tr>
-                                    <th scope="row">RTX 3000</th>
-                                    <td>6 GB GDDR6</td>
-                                    <td>2304</td>
-                                    <td>288</td>
-                                    <td>36</td>
-                                    <td>imagenxd</td>
+                            </table>
+                                  </div>
 
 
-
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">T2000</th>
-                                    <td>4 GB GDDR5</td>
-                                    <td>1024</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
+                                  <div class="tab-pane fade" id="perfilextra3" role="tabpanel" aria-labelledby="contact-tab">
 
 
-
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">T1000</th>
-                                    <td>4 GB GDDR5</td>
-                                    <td>768</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
+                            <table class="table table-dark">
+                              <thead>
+                                <tr>
+                                  <th scope="col">GPU</th>
+                                  <th scope="col">MEMORY</th>
+                                  <th scope="col">CUDA CORES</th>
+                                  <th scope="col">TENSOR CORES</th>
+                                  <th scope="col">RT CORES</th>
+                                  <th scope="col">VR READY</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">P520</th>
+                                  <td>2 GB GDDR5</td>
+                                  <td>384</td>
+                                  <td>-</td>
+                                  <td>-</td>
+                                  <td>-</td>
 
 
 
-                                  </tr>
+                                </tr>
 
 
 
+                              </tbody>
+
+                            </table>
+                                  </div>
 
 
 
+                                </div>
 
-                                </tbody>
-                              </table>
+
                           </div>
 
                         </div>
@@ -1742,7 +1943,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1754,7 +1955,7 @@
                                     <td>2560</td>
                                     <td>320</td>
                                     <td>40</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1766,7 +1967,7 @@
                                     <td>2304</td>
                                     <td>288</td>
                                     <td>36</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1784,17 +1985,7 @@
 
                                   </tr>
 
-                                  <tr>
-                                    <th scope="row">T1000</th>
-                                    <td>4 GB GDDR5</td>
-                                    <td>768</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
 
-
-
-                                  </tr>
 
 
 
@@ -1859,7 +2050,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1870,7 +2061,7 @@
                           </div>
 
                         </div>
-                </div>>
+                </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 
@@ -1923,7 +2114,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -1948,7 +2139,9 @@
 
             </div>
 
+            <div class="col-md-4">
 
+            </div>
 
             <div class="col-md-4">
               <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal13">
@@ -1989,7 +2182,7 @@
                                     <td>3072</td>
                                     <td>384</td>
                                     <td>48</td>
-                                    <td>imagenxd</td>
+                                    <td><img src="images/nvidia-ia.svg"  width="80" height="80" alt=""></td>
 
 
 
@@ -2055,7 +2248,7 @@
 
 
 
-                          <div class="col-md-6" align="center" >
+                          <div class="col-md-6"  style="text-align:center">
                               <div class="col contacto" >
                                 <img class="logo" src="images/eclipse-logo.svg" width="300" height="300" alt="">
                               </div>
@@ -2091,13 +2284,9 @@
 
   </body>
 
-<script>
-var totalwidth = 190 * $('.list-group').length;
-
-$('.scoll-tree').css('width', totalwidth);
-</script>
 
 
+  <script src="js/bootstrap.js" charset="utf-8"></script>
 
 
 
