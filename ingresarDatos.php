@@ -1,6 +1,7 @@
+
 <?php
 
-	//Proceso de conexi�n con la base de datos
+	//Proceso de conexión con la base de datos
 	include("conexion.php");
 
 	$nombre = $_POST['nombre'];
@@ -10,7 +11,7 @@
 	$telefono = $_POST['telefono'];
 	$pais = $_POST['pais'];
 	$comentarios = $_POST['comentarios'];
-	$producto = "Infinidat";
+	$producto = "Nvidia_RTX";
 	$oculto = $_POST['oculto'];
 
 	// specify params - MUST be a variable that can be passed by reference!
@@ -69,15 +70,15 @@
 
 	    $mail->From     = $correo;
 	    $mail->FromName = $nombre;
-	    $mail->AddAddress("ricardo.zuniga@eclipsemex.com"); // Direcci�n a la que llegaran los mensajes.
-	//    $mail->AddAddress("contacto@eclipsemex.com"); // Direcci�n a la que llegaran los mensajes.
+	    $mail->AddAddress("samuel.mejia@eclipsemex.mx"); // Direcci�n a la que llegaran los mensajes.
+		$mail->AddAddress("contacto@eclipsemex.com"); // Direcci�n a la que llegaran los mensajes.
 
 	    // Aqu� van los datos que apareceran en el correo que reciba
 
 	    $mail->WordWrap = 50;
 	    $mail->IsHTML(true);
-	    $mail->Subject  =  "Solicitud de informacion - Fortinet";
-	    $mail->Body     =  "Una persona solicita informacion acerca de Fortinet, estos son sus datos:<br><br>".
+	    $mail->Subject  =  "Solicitud de informacion - Nvidia";
+	    $mail->Body     =  "Una persona solicita informacion acerca de Nvidia, estos son sus datos:<br><br>".
 	                        "Nombre: " . $nombre . " <br> ".
 	                        "Apellidos: " . $apellidos . " <br>".
 	                        "Empresa: " . $empresa . " <br>".
@@ -106,3 +107,4 @@
 	sqlsrv_free_stmt($stmt);
 	sqlsrv_close($conn);
 ?>
+11:31 AM
